@@ -1,0 +1,35 @@
+*{
+    margin: 0; padding: 0;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.receipt{
+    width: 300px;
+    border: 1px solid black;
+    margin: 100px auto;
+}
+
+.title{
+    font-size: 25px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.text{
+    border-bottom: 1px dotted black;
+}
+
+.total_price{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
